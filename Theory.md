@@ -8,7 +8,7 @@ Ví dụ: dự đoán cân nặng (kg) dựa trên chiều cao (cm).
 ## 2. Công thức mô hình
 Mô hình hồi quy tuyến tính có dạng:
 
-![alt text](image.png)
+![Mô hình hồi quy](images/image.png)
 
 - \( w_0 \): hệ số chặn (bias / intercept)  
 - \( w_1 \): hệ số góc (slope / weight)  
@@ -18,8 +18,7 @@ Mô hình hồi quy tuyến tính có dạng:
 ## 3. Hàm mất mát (Loss function)
 Để huấn luyện mô hình, ta tối thiểu hóa hàm mất mát:
 
-![alt text](image-2.png)
-
+![Loss function](images/image-2.png)
 Trong đó:
 - \( y_i \): giá trị thực tế  
 - \( y^ \): giá trị dự đoán  
@@ -29,10 +28,10 @@ Trong đó:
 Để tránh overfitting, thêm số hạng ràng buộc:
 
 - **L1 (Lasso):**
-![alt text](image-3.png)
+![L1 Regularization](images/image-3.png)
 
 - **L2 (Ridge):**
-![alt text](image-4.png)
+![L2 Regularization](images/image-4.png)
 
 ## 5. Đánh giá mô hình
 Một số chỉ số:
