@@ -1,6 +1,6 @@
 # 📊 Hồi quy tuyến tính (Linear Regression)
 
-Dự án này triển khai **hồi quy tuyến tính** theo chương 7 trong tài liệu học máy, bao gồm:
+Dự án này triển khai **hồi quy tuyến tính** bao gồm:
 - Mô hình hồi quy tuyến tính
 - Hàm mất mát (Mean Squared Error)
 - Thêm số hạng regularization (Ridge, Lasso)
@@ -41,6 +41,7 @@ J(w, b) = (1/N) * Σ (y_i - ŷ_i)^2 + λ * Σ (w_j^2)
 
 - **Lasso Regression (L1):**
 
+J(w, b) = (1/N) * Σ (y_i - ŷ_i)^2 + λ Σ |w_j|
 
 ---
 
